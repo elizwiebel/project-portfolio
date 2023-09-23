@@ -1,0 +1,41 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.drawer {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    transition: $transition-fade;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    height: 100vh;
+    min-width: 300px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    background-color: $background-primary;
+
+    &.--right {
+        right: 0;
+    }
+
+    &.--left {
+        left: 0;
+    }
+
+    &.--top {
+        left: 0;
+        height: auto;
+        min-height: 300px;
+        width: 100%;
+    }
+
+    &.--open {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.drawer-main {
+    padding: 1rem;
+}

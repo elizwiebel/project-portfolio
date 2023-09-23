@@ -1,18 +1,10 @@
-import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
+import Layout from "@components/Layout/Layout";
+import Title from "@components/Title/Title";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-        <Header title="Content Coming Soon!" />
-      </main>
-      <Footer />
-    </div>
+    <Layout title={'Home'}>
+      <Title title="Content Coming Soon!" />
+    </Layout>
   );
 }

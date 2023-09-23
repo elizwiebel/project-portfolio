@@ -1,0 +1,30 @@
+/* Fonts */
+
+$font-primary: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+/* Colors */
+
+$black: #000000;
+$white: #ffffff;
+$light-grey: #f3f3f3;
+
+/* Borders */
+
+$border-transparent: 1px solid transparent;
+$border-primary: 1px solid $black;
+$border-radius-primary: 5px;
+
+/* Backgrounds */
+
+$background-primary: $white;
+$background-overlay: rgba(0, 0, 0, 0.25);
+
+/* Dimensions */
+
+$header-height: 32px;
+$footer-height: 32px;
+
+/* Transitions */
+
+$transition-fade: visibility 0.25s ease-in-out, opacity 0.25s ease-in-out;

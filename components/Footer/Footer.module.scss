@@ -1,0 +1,30 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.footer {
+    @include global-padding-x;
+    @include footer-padding-y;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: $border-primary;
+    border-bottom: $border-primary;
+    background-color: $background-primary;
+    // height: $footer-height;
+    gap: 0.25rem;
+}
+
+.footer-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include txt-small;
+
+    svg {
+        margin-left: 0.25rem;
+        height: 0.5rem;
+    }
+}

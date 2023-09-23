@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
-import FeedbackForm from "@components/FeedbackForm";
-import JokeBlock from "@components/JokeBlock";
+import Header from "@components/Title/Title";
+import Footer from "@components/Footer/Footer";
+import FeedbackForm from "@components/FeedbackForm/FeedbackForm";
+import JokeBlock from "@components/JokeBlock/JokeBlock";
 
 export default function Home() {
     return (
