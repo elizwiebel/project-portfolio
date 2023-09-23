@@ -1,0 +1,22 @@
+import Head from 'next/head'
+import Link from 'next/link'
+
+import Footer from '@components/Footer'
+
+export default function Success() {
+    return (
+        <div className="container">
+            <Head>
+                <title>Next.js Toolbox Template!</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
+            <main>
+                <h1>Submission Received!</h1>
+                <p>Thank you for your feedback! Head back to the <a href="/">home page</a>.</p>
+            </main>
+
+            <Footer />
+        </div>
+    )
+}
