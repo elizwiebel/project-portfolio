@@ -8,15 +8,15 @@
     cursor: pointer;
 
     background-color: $background-primary;
-    border: $border-primary;
+    border: $border-transparent;
     border-radius: $border-radius-primary;
 
     &:hover {
-        background-color: $light-grey;
+        border: $border-primary;
     }
 
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2rem;
+    width: 2rem;
 
     svg {
         height: 100%;

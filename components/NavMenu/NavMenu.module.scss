@@ -1,0 +1,24 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu li {
+    border: $border-transparent;
+    border-radius: $border-radius-primary;
+    margin-bottom: 0.25rem;
+
+    &:hover {
+        border: $border-primary;
+    }
+}
+
+.nav-menu a {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    @include link-medium;
+}

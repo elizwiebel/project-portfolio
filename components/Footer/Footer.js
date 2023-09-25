@@ -4,9 +4,11 @@ import IconHeart from 'svgs/IconHeart'
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
-      <Logo />
-      <div className={styles['footer-txt']}>made with <IconHeart /></div>
-    </footer>
+    <div className={styles['footer-container']}>
+      <footer className={styles.footer}>
+        <Logo />
+        <div className={styles['footer-txt']}>made with <IconHeart /></div>
+      </footer>
+    </div>
   )
 }

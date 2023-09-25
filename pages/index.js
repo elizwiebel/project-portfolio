@@ -1,10 +1,10 @@
 import Layout from "@components/Layout/Layout";
-import Title from "@components/Title/Title";
+import HomePage from "@components/HomePage/HomePage";
 
 export default function Home() {
   return (
     <Layout title={'Home'}>
-      <Title title="Content Coming Soon!" />
+      <HomePage />
     </Layout>
   );
 }

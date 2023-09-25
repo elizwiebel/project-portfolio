@@ -1,21 +1,32 @@
 @import 'styles/variables';
 @import 'styles/mixins';
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $background-primary;
+    box-shadow: $light-shadow;
+}
+
 .header {
+    max-width: $max-width;
     position: fixed;
     z-index: 997;
     width: 100%;
     top: 0;
     @include global-padding-x;
-    @include header-padding-y;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    border-bottom: $border-primary;
     height: $header-height;
     background-color: $background-primary;
+    box-shadow: $light-shadow;
 }
 
 .header-spacer {

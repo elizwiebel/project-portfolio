@@ -2,20 +2,21 @@
 @import 'styles/mixins';
 
 .main-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $background-primary;
+    background-color: $background-secondary;
 }
 
 .main {
+    width: 100%;
     @include global-margin-x;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    min-height: 600px;
-    max-width: 1440px;
-    border-left: $border-primary;
-    border-right: $border-primary;
+    min-height: $min-main-height;
+    max-width: $max-width;
+    background-color: $background-primary;
+    box-shadow: $light-shadow;
 }

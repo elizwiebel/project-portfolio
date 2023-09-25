@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import IconHeaderMenu from 'svgs/IconHeaderMenu'
-// import styles from './HeaderButton.module.scss'
 import Drawer from '@components/Drawer/Drawer'
 import ButtonSquareWithIcon from '@components/ButtonSquareWithIcon/ButtonSquareWithIcon'
+import NavMenu from '@components/NavMenu/NavMenu'
 
 export default function HeaderButton() {
     const [isOpen, setIsOpen] = useState(false)
@@ -16,7 +16,7 @@ export default function HeaderButton() {
                 isOpen={isOpen}
                 onClose={() => setIsOpen(false)}
                 position='top'>
-                <p>Content Coming Soon!</p>
+                <NavMenu />
             </Drawer>
         </>
     )

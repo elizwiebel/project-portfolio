@@ -18,16 +18,19 @@ export default function Drawer({ children, isOpen, onClose, position }) {
         <>
             <Portal wrapperId="portal-drawer-menu">
                 <Overlay onClose={onClose} isOpen={isOpen} />
-                <div className={drawerClasses}>
-                    <HeaderMenu>
-                        <ButtonSquareWithIcon onClick={() => onClose(true)}>
-                            <IconCloseX />
-                        </ButtonSquareWithIcon>
-                    </HeaderMenu>
-                    <div className={styles['drawer-main']}>
-                        {children}
+                <div className={styles['drawer-container']}>
+                    <div className={drawerClasses}>
+                        <HeaderMenu>
+                            <ButtonSquareWithIcon onClick={() => onClose(true)}>
+                                <IconCloseX />
+                            </ButtonSquareWithIcon>
+                        </HeaderMenu>
+                        <div className={styles['drawer-main']}>
+                            {children}
+                        </div>
                     </div>
                 </div>
+
             </Portal >
         </>
     )

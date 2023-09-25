@@ -1,0 +1,24 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.home-container {
+    margin: 3rem 1rem;
+
+    @media screen and (min-width: $breakpoint-small) {
+        margin: 3rem;
+    }
+}
+
+.home-txt {
+    @include txt-medium;
+    margin-bottom: 1rem;
+}
+
+.home-name {
+    @include h1;
+    margin-bottom: 1.25rem;
+}
+
+.home-title {
+    @include txt-medium;
+}

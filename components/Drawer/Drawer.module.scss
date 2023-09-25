@@ -1,6 +1,12 @@
 @import 'styles/variables';
 @import 'styles/mixins';
 
+.drawer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .drawer {
     visibility: hidden;
     opacity: 0;
@@ -11,8 +17,11 @@
     top: 0;
     height: 100vh;
     min-width: 300px;
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
     background: #ffffff;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: $light-shadow;
     background-color: $background-primary;
 
     &.--right {
@@ -24,7 +33,6 @@
     }
 
     &.--top {
-        left: 0;
         height: auto;
         min-height: 300px;
         width: 100%;
