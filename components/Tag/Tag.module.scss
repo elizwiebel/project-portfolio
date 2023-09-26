@@ -1,0 +1,42 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.tag {
+    padding: 0.5rem 0.75rem;
+    border: $border-transparent;
+    border-radius: $border-radius-primary;
+    background-color: $medium-grey;
+    // white-space: nowrap;
+
+    &.--type-web {
+        background-color: $light-pink;
+    }
+
+    &.--type-software {
+        background-color: $light-purple;
+    }
+
+    &.--type-aws {
+        background-color: $light-teal;
+    }
+
+    &.--type-ecomm {
+        background-color: $burnt-orange;
+    }
+
+    &.--type-google {
+        background-color: $dark-pink;
+    }
+
+    &.--size-1 {
+        font-size: 1rem;
+    }
+
+    &.--size-2 {
+        font-size: 1.5rem;
+    }
+
+    &.--size-3 {
+        font-size: 2rem;
+    }
+}

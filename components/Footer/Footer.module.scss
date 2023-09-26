@@ -6,7 +6,7 @@
     background-color: $background-primary;
     display: flex;
     justify-content: center;
-    box-shadow: $light-shadow;
+    border-radius: $border-radius-primary;
 }
 
 .footer {
@@ -22,6 +22,8 @@
     box-shadow: $light-shadow;
     background-color: $background-primary;
     gap: 0.5rem;
+    border-radius: $border-radius-primary;
+    border: $border-secondary;
 }
 
 .footer-txt {
@@ -33,6 +35,6 @@
 
     svg {
         margin-left: 0.5rem;
-        height: 0.75rem;
+        height: 1rem;
     }
 }

@@ -9,14 +9,27 @@
     background-color: $background-secondary;
 }
 
-.main {
+.main-box {
+    background-color: $background-secondary;
+    max-width: $max-width;
     width: 100%;
+}
+
+.main {
     @include global-margin-x;
-    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     display: flex;
     flex-direction: column;
     min-height: $min-main-height;
     max-width: $max-width;
     background-color: $background-primary;
     box-shadow: $light-shadow;
+
+    @media screen and (min-width: $breakpoint-small) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }

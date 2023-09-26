@@ -23,6 +23,7 @@
     background: #ffffff;
     box-shadow: $light-shadow;
     background-color: $background-primary;
+    border-radius: $border-radius-primary;
 
     &.--right {
         right: 0;

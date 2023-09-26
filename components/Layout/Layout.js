@@ -12,9 +12,12 @@ export default function Layout({ title, children }) {
             </Head>
             <Header />
             <div className={styles['main-container']}>
-                <main className={styles['main']}>
-                    {children}
-                </main>
+                <div className={styles['main-box']}>
+                    <main className={styles['main']}>
+                        {children}
+                    </main>
+                </div>
+
             </div>
             <Footer />
         </>

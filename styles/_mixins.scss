@@ -2,8 +2,8 @@
 
 /* Spacing */
 @mixin global-margin-x {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 @mixin global-padding-x {
@@ -19,24 +19,31 @@
     font-family: $font-primary;
 }
 
+@mixin h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font-primary;
+}
+
 @mixin txt-x-small {
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-secondary;
     font-size: 0.5rem;
 }
 
 @mixin txt-small {
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-secondary;
     font-size: 0.75rem;
 }
 
 @mixin txt-medium {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5rem;
+    font-family: $font-secondary;
+    font-size: 1.25rem;
 }
 
 @mixin link-medium {
     text-transform: uppercase;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-secondary;
     font-size: 1rem;
     text-decoration: none;
     color: $black;

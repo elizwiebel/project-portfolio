@@ -7,6 +7,7 @@
     justify-content: center;
     width: 100%;
     background-color: $background-primary;
+    border-radius: $border-radius-primary;
     box-shadow: $light-shadow;
 }
 
@@ -27,6 +28,8 @@
     height: $header-height;
     background-color: $background-primary;
     box-shadow: $light-shadow;
+    border-radius: $border-radius-primary;
+    border: $border-secondary;
 }
 
 .header-spacer {

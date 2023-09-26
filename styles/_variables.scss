@@ -1,5 +1,6 @@
 /* Fonts */
 $font-primary: 'Exo2', sans-serif;
+$font-secondary: 'Roboto Mono', monospace;
 
 /* Colors */
 $black: #000000;
@@ -9,6 +10,12 @@ $medium-grey: #dadada;
 $medium-dark-grey: #c2c2c2;
 $dark-grey: #aaaaaa;
 $dark-purple: #442f48;
+$light-purple: #c5adc9;
+$light-pink: #ffb6c1;
+$dark-pink: #ff687e;
+$burnt-orange: #ea7e5d;
+$teal: #50c1af;
+$light-teal: #c4eae4;
 
 /* Shadows */
 $light-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -16,7 +23,7 @@ $light-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 /* Borders */
 $border-transparent: 1px solid transparent;
 $border-primary: 1px solid $black;
-$border-secondary: 1px solid $medium-grey;
+$border-secondary: 1px solid $light-grey;
 $border-radius-primary: 5px;
 
 /* Backgrounds */
@@ -25,7 +32,7 @@ $background-secondary: $dark-purple;
 $background-overlay: rgba(0, 0, 0, 0.25);
 
 /* Dimensions */
-$header-height: 40px;
+$header-height: 48px;
 $max-width: 1400px;
 $min-main-height: 600px;
 

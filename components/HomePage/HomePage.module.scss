@@ -2,11 +2,10 @@
 @import 'styles/mixins';
 
 .home-container {
-    margin: 3rem 1rem;
-
-    @media screen and (min-width: $breakpoint-small) {
-        margin: 3rem;
-    }
+    // @media screen and (min-width: $breakpoint-small) {
+    //     margin-top: 3rem;
+    //     margin-bottom: 3rem;
+    // }
 }
 
 .home-txt {
@@ -21,4 +20,17 @@
 
 .home-title {
     @include txt-medium;
+}
+
+.home-intro-container {
+    margin-bottom: 6rem;
+}
+
+.skills {
+    margin-bottom: 6rem;
+}
+
+.skills-heading {
+    @include h2;
+    margin-bottom: 2rem;
 }
