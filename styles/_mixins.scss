@@ -26,6 +26,18 @@
     font-family: $font-primary;
 }
 
+@mixin h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font-primary;
+}
+
+@mixin txt-regular {
+    font-family: $font-secondary;
+    font-size: 1rem;
+}
+
 @mixin txt-x-small {
     font-family: $font-secondary;
     font-size: 0.5rem;
