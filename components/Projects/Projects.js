@@ -8,7 +8,7 @@ export default function Projects() {
             <div className={styles['project']}>
                 <div className={styles['project-about-container']}>
                     <h3>Responsive Header and Navigation Menu </h3>
-                    <p>Built from the ground up for a Shopify Plus ecommerce store. Created from a Figma mock, designed by internal UI team.</p>
+                    <p>Built from the ground up for a Shopify Plus ecommerce store. Created to match a Figma mock supplied by an internal UI team.</p>
                     <TagGrid data={project01ResponsiveHeaderData} />
                 </div>
                 <div className={styles['project-img-container']}>
