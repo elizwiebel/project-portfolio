@@ -1,11 +1,11 @@
 export const skillsData = [
     {
-        name: 'JavaScript',
+        name: 'TypeScript',
         size: 3,
         type: 'web'
     },
     {
-        name: 'TypeScript',
+        name: 'JavaScript',
         size: 2,
         type: 'web'
     },
@@ -22,6 +22,11 @@ export const skillsData = [
     {
         name: 'Next.js',
         size: 2,
+        type: 'web'
+    },
+    {
+        name: 'Jest',
+        size: 1,
         type: 'web'
     },
     {
@@ -95,6 +100,11 @@ export const skillsData = [
         type: 'ecomm'
     },
     {
+        name: 'BigCommerce',
+        size: 2,
+        type: 'ecomm'
+    },
+    {
         name: 'NetSuite Site Builder',
         size: 1,
         type: 'ecomm'
@@ -102,11 +112,6 @@ export const skillsData = [
     {
         name: 'Netsuite SuiteCommerce',
         size: 1,
-        type: 'ecomm'
-    },
-    {
-        name: 'BigCommerce',
-        size: 2,
         type: 'ecomm'
     },
     {
@@ -131,7 +136,7 @@ export const skillsData = [
     },
     {
         name: 'Netsuite',
-        size: 1,
+        size: 2,
         type: 'software'
     },
     {

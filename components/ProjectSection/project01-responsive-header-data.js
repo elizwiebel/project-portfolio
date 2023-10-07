@@ -10,6 +10,16 @@ export const project01ResponsiveHeaderData = [
         type: 'default'
     },
     {
+        name: 'HTML',
+        size: 1,
+        type: 'default'
+    },
+    {
+        name: 'SASS',
+        size: 1,
+        type: 'default'
+    },
+    {
         name: 'Figma',
         size: 1,
         type: 'default'

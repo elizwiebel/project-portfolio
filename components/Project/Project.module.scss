@@ -1,0 +1,73 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project-about-container {
+    margin-bottom: 2rem;
+}
+
+.project-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media screen and (min-width: $breakpoint-medium) {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 2rem;
+    }
+}
+
+.project-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    @media screen and (min-width: $breakpoint-medium) {
+        width: 25%;
+    }
+}
+
+.project-mobile-background {
+    display: block;
+    width: 100%;
+}
+
+.project-mobile-capture {
+    position: absolute;
+    left: 5.75%;
+    top: 9%;
+    display: block;
+    width: 88.5%;
+}
+
+.project-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    @media screen and (min-width: $breakpoint-medium) {
+        width: 70%;
+    }
+}
+
+.project-desktop-background {
+    display: block;
+    width: 100%;
+}
+
+.project-desktop-capture {
+    position: absolute;
+    left: 12%;
+    top: 14.5%;
+    display: block;
+    width: 75.75%;
+}

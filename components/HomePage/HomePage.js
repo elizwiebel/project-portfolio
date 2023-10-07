@@ -1,6 +1,6 @@
 import TagGrid from '@components/TagGrid/TagGrid'
 import styles from './HomePage.module.scss'
-import Projects from '@components/Projects/Projects'
+import Projects from '@components/ProjectSection/ProjectSection'
 import { skillsData } from '@components/HomePage/skills-data'
 
 export default function HomePage({ children }) {
