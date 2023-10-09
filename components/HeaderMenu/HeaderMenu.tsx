@@ -7,7 +7,7 @@ export default function HeaderMenu({ children }) {
             <div className={styles.header}>
                 <Logo />
                 {children}
-            </div >
+            </div>
             <div className={styles['header-spacer']}></div>
         </div>
     )

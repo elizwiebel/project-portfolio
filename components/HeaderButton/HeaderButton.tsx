@@ -9,13 +9,17 @@ export default function HeaderButton() {
 
     return (
         <>
-            <ButtonSquareWithIcon onClick={() => setIsOpen(true)} label={'Open drawer'}>
+            <ButtonSquareWithIcon
+                onClick={() => setIsOpen(true)}
+                label={'Open drawer'}
+            >
                 <IconHeaderMenu />
             </ButtonSquareWithIcon>
             <Drawer
                 isOpen={isOpen}
                 onClose={() => setIsOpen(false)}
-                position='top'>
+                position="top"
+            >
                 <NavMenu />
             </Drawer>
         </>

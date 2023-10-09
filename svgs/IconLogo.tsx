@@ -1,7 +1,15 @@
 export default function IconLogo() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" preserveAspectRatio="xMidYMid meet">
-            <g transform="translate(0,50) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            preserveAspectRatio="xMidYMid meet"
+        >
+            <g
+                transform="translate(0,50) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none"
+            >
                 <path d="M90 425 l0 -44 98 -3 99 -3 -104 -140 c-82 -110 -103 -146 -103 -172 l0 -33 170 0 170 0 0 45 0 44 -103 3 -104 3 104 140 c82 110 103 146 103 172 l0 33 -165 0 -165 0 0 -45z m310 5 c0 -10 -49 -86 -110 -168 -61 -82 -110 -152 -110 -156 0 -3 50 -6 110 -6 l110 0 0 -25 0 -25 -150 0 c-142 0 -150 1 -150 20 0 10 50 86 110 168 61 82 110 152 110 156 0 3 -47 6 -105 6 l-105 0 0 25 0 25 145 0 c137 0 145 -1 145 -20z" />
             </g>
         </svg>

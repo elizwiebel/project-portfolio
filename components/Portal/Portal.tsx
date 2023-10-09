@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import { createPortal } from 'react-dom';
+import { useEffect, useState } from 'react'
+import { createPortal } from 'react-dom'
 
 export default function Portal({ children, wrapperId }) {
     const [mounted, setMounted] = useState(false)
@@ -11,7 +11,6 @@ export default function Portal({ children, wrapperId }) {
     }, [])
 
     return mounted
-        ? createPortal(children,
-            document.getElementById(wrapperId))
+        ? createPortal(children, document.getElementById(wrapperId))
         : null
 }

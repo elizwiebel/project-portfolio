@@ -38,7 +38,9 @@ $max-width: 1400px;
 $min-main-height: 600px;
 
 /* Transitions */
-$transition-fade: visibility 0.25s ease-in-out, opacity 0.25s ease-in-out;
+$transition-fade:
+    visibility 0.25s ease-in-out,
+    opacity 0.25s ease-in-out;
 
 /* Breakpoints */
 $breakpoint-small: 600px;
