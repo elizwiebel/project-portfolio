@@ -26,6 +26,7 @@
         box-shadow: $light-shadow;
         display: block;
         width: 75%;
+        height: auto;
     }
 
     @media screen and (min-width: $breakpoint-medium) {

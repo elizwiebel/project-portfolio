@@ -11,6 +11,8 @@ export default function HomePage() {
                     <img
                         src="/assets/imgs/headshot-silo.jpg"
                         alt="Smiling headshot on a white background"
+                        width="833"
+                        height="835"
                     ></img>
                 </div>
                 <div className={styles['home-txt-container']}>
