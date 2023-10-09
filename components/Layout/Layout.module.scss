@@ -16,7 +16,12 @@
 }
 
 .main {
-    @include global-margin-x;
+    @include global-margin-x-sm;
+
+    @media screen and (min-width: $breakpoint-small) {
+        @include global-margin-x-lg;
+    }
+
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: 1.5rem;

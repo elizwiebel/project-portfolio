@@ -22,6 +22,10 @@
 
 .section {
     margin-bottom: 6rem;
+
+    &:last-of-type {
+        margin: 0;
+    }
 }
 
 .section-heading {

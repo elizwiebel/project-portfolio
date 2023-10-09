@@ -2,7 +2,7 @@
 @import 'styles/mixins';
 
 .project {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .project-about-container {
@@ -51,11 +51,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    overflow-x: auto;
 
     @media screen and (min-width: $breakpoint-medium) {
         width: 70%;
+    }
+}
+
+.project-scroll-container {
+    position: relative;
+    min-width: 750px;
+
+    @media screen and (min-width: $breakpoint-medium) {
+        min-width: unset;
     }
 }
 

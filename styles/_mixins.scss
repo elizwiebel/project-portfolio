@@ -1,7 +1,12 @@
 @import './variables';
 
 /* Spacing */
-@mixin global-margin-x {
+@mixin global-margin-x-sm {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@mixin global-margin-x-lg {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }

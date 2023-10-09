@@ -15,8 +15,10 @@ export default function Project({ heading, description, mobileImg, desktopImg, t
                     <img className={styles['project-mobile-capture']} src={mobileImg} alt='Mobile website screen capture'></img>
                 </div>
                 <div className={styles['project-desktop']}>
-                    <img className={styles['project-desktop-background']} src='/assets/imgs/mock-background-desktop.png' alt='Mock up of a laptop for use as a background'></img>
-                    <img className={styles['project-desktop-capture']} src={desktopImg} alt='Desktop website screen capture'></img>
+                    <div className={styles['project-scroll-container']}>
+                        <img className={styles['project-desktop-background']} src='/assets/imgs/mock-background-desktop.png' alt='Mock up of a laptop for use as a background'></img>
+                        <img className={styles['project-desktop-capture']} src={desktopImg} alt='Desktop website screen capture'></img>
+                    </div>
                 </div>
             </div>}
         </div>
