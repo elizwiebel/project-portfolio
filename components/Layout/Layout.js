@@ -8,6 +8,10 @@ export default function Layout({ title, children }) {
         <>
             <Head>
                 <title>{title}</title>
+                <meta
+                    name="description"
+                    content="This project is designed to be a private web development showcase. It is currently still in the early stages, but will evolve over time as more content is added"
+                />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />

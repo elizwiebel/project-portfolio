@@ -16,12 +16,12 @@ export default function Drawer({ children, isOpen, onClose, position }) {
 
     return (
         <>
-            <Portal wrapperId="portal-drawer-menu">
+            <Portal wrapperId='portal-drawer-menu'>
                 <Overlay onClose={onClose} isOpen={isOpen} />
                 <div className={styles['drawer-container']}>
                     <div className={drawerClasses}>
                         <HeaderMenu>
-                            <ButtonSquareWithIcon onClick={() => onClose(true)}>
+                            <ButtonSquareWithIcon onClick={() => onClose(true)} label='Close drawer'>
                                 <IconCloseX />
                             </ButtonSquareWithIcon>
                         </HeaderMenu>

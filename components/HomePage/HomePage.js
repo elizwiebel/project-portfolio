@@ -7,7 +7,7 @@ export default function HomePage({ children }) {
     return (
         <>
             <section className={styles['home-intro-container']}>
-                <div className={styles['home-headshot-container']}><img src='/assets/imgs/headshot-silo.jpg'></img></div>
+                <div className={styles['home-headshot-container']}><img src='/assets/imgs/headshot-silo.jpg' alt='Smiling headshot on a white background'></img></div>
                 <div className={styles['home-txt-container']}>
                     <div>
                         <p className={styles['home-txt']}>Hi, my name is</p>

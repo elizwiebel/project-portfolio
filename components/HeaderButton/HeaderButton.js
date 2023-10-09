@@ -9,7 +9,7 @@ export default function HeaderButton() {
 
     return (
         <>
-            <ButtonSquareWithIcon onClick={() => setIsOpen(true)}>
+            <ButtonSquareWithIcon onClick={() => setIsOpen(true)} label={'Open drawer'}>
                 <IconHeaderMenu />
             </ButtonSquareWithIcon>
             <Drawer
