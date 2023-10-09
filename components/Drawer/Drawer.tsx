@@ -7,7 +7,9 @@ import HeaderMenu from '@components/HeaderMenu/HeaderMenu'
 // import { useEffect } from 'react'
 
 export default function Drawer({ children, isOpen, onClose, position }) {
-    const drawerClasses = isOpen ? `${styles['drawer']} ${styles[`--${position}`]} ${styles['--open']}` : `${styles['drawer']} ${styles[`--${position}`]}`
+    const drawerClasses = isOpen
+        ? `${styles['drawer']} ${styles[`--${position}`]} ${styles['--open']}`
+        : `${styles['drawer']} ${styles[`--${position}`]}`
 
     // Uncomment to disable body scrolling on drawer open
     // useEffect(() => {
@@ -16,22 +18,22 @@ export default function Drawer({ children, isOpen, onClose, position }) {
 
     return (
         <>
-            <Portal wrapperId='portal-drawer-menu'>
+            <Portal wrapperId="portal-drawer-menu">
                 <Overlay onClose={onClose} isOpen={isOpen} />
                 <div className={styles['drawer-container']}>
                     <div className={drawerClasses}>
                         <HeaderMenu>
-                            <ButtonSquareWithIcon onClick={() => onClose(true)} label='Close drawer'>
+                            <ButtonSquareWithIcon
+                                onClick={() => onClose(true)}
+                                label="Close drawer"
+                            >
                                 <IconCloseX />
                             </ButtonSquareWithIcon>
                         </HeaderMenu>
-                        <div className={styles['drawer-main']}>
-                            {children}
-                        </div>
+                        <div className={styles['drawer-main']}>{children}</div>
                     </div>
                 </div>
-
-            </Portal >
+            </Portal>
         </>
     )
 }
