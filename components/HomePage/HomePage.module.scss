@@ -15,9 +15,47 @@
     @include txt-medium;
 }
 
+.home-headshot-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    img {
+        border-radius: $border-radius-primary;
+        border: $border-primary;
+        box-shadow: $light-shadow;
+        display: block;
+        width: 75%;
+    }
+
+    @media screen and (min-width: $breakpoint-medium) {
+        max-width: 500px;
+        margin-bottom: 0;
+        order: 2;
+    }
+}
+
 .home-intro-container {
-    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 6rem;
+
+    @media screen and (min-width: $breakpoint-medium) {
+        flex-direction: row;
+    }
+}
+
+.home-txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+    width: 100%;
+
+    @media screen and (min-width: $breakpoint-medium) {
+        width: 45%;
+        align-items: center;
+    }
 }
 
 .section {

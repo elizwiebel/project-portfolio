@@ -6,21 +6,24 @@ import { skillsData } from '@components/HomePage/skills-data'
 export default function HomePage({ children }) {
     return (
         <>
-            <div className={styles['home-container']}>
-                <section className={styles['home-intro-container']}>
-                    <p className={styles['home-txt']}>Hi, my name is</p>
-                    <h2 className={styles['home-name']}>Eli Zwiebel</h2>
-                    <h1 className={styles['home-title']}>Full-Stack Web Developer</h1>
-                </section>
-                <section className={styles['section']}>
-                    <h2 className={styles['section-heading']}>Skills</h2>
-                    <TagGrid data={skillsData} />
-                </section>
-                <section className={styles['section']}>
-                    <h2 className={styles['section-heading']}>Projects</h2>
-                    <Projects />
-                </section>
-            </div>
+            <section className={styles['home-intro-container']}>
+                <div className={styles['home-headshot-container']}><img src='/assets/imgs/headshot-silo.jpg'></img></div>
+                <div className={styles['home-txt-container']}>
+                    <div>
+                        <p className={styles['home-txt']}>Hi, my name is</p>
+                        <h2 className={styles['home-name']}>Eli Zwiebel</h2>
+                        <h1 className={styles['home-title']}>Full-Stack Web Developer</h1>
+                    </div>
+                </div>
+            </section>
+            <section className={styles['section']}>
+                <h2 className={styles['section-heading']}>Skills</h2>
+                <TagGrid data={skillsData} />
+            </section>
+            <section className={styles['section']}>
+                <h2 className={styles['section-heading']}>Projects</h2>
+                <Projects />
+            </section>
         </>
     )
 }
