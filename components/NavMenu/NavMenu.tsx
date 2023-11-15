@@ -11,7 +11,7 @@ export default function NavMenu() {
                     <a href="https://github.com/elizwiebel">Github</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/eli-zwiebel/">
+                    <a href="https://www.linkedin.com/in/elizwiebel/">
                         LinkedIn
                     </a>
                 </li>
