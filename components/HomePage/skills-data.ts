@@ -1,22 +1,22 @@
 export const skillsData = [
     {
-        name: 'TypeScript',
+        name: 'JavaScript',
         size: 3,
         type: 'web',
     },
     {
-        name: 'JavaScript',
+        name: 'TypeScript',
         size: 2,
+        type: 'web',
+    },
+    {
+        name: 'React.js',
+        size: 3,
         type: 'web',
     },
     {
         name: 'Node.js',
         size: 1,
-        type: 'web',
-    },
-    {
-        name: 'React',
-        size: 3,
         type: 'web',
     },
     {
@@ -32,6 +32,11 @@ export const skillsData = [
     {
         name: 'Redux',
         size: 2,
+        type: 'web',
+    },
+    {
+        name: 'GraphQL',
+        size: 1,
         type: 'web',
     },
     {
@@ -90,7 +95,7 @@ export const skillsData = [
         type: 'web',
     },
     {
-        name: 'Shopify',
+        name: 'Shopify Plus',
         size: 3,
         type: 'ecomm',
     },
@@ -125,12 +130,27 @@ export const skillsData = [
         type: 'software',
     },
     {
-        name: 'JIRA',
+        name: 'Jira',
         size: 2,
         type: 'software',
     },
     {
         name: 'Confluence',
+        size: 1,
+        type: 'software',
+    },
+    {
+        name: 'Docker',
+        size: 1,
+        type: 'software',
+    },
+    {
+        name: 'Klaviyo',
+        size: 1,
+        type: 'software',
+    },
+    {
+        name: 'Yotpo',
         size: 1,
         type: 'software',
     },
