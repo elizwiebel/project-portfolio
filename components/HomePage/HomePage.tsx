@@ -19,7 +19,7 @@ export default function HomePage() {
                     <div>
                         <p className={styles["home-txt"]}>Hi, my name is</p>
                         <h2 className={styles["home-name"]}>Elijah Zwiebel</h2>
-                        <h1 className={styles["home-title"]}>Front End Web Developer</h1>
+                        <h1 className={styles["home-title"]}>Software Engineer</h1>
                     </div>
                 </div>
             </section>
