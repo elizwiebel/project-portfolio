@@ -1,27 +1,27 @@
 export const project02WebFormData = [
     {
-        name: 'Shopify',
+        name: "Shopify Plus",
         size: 1,
-        type: 'default',
+        type: "default",
     },
     {
-        name: 'VanillaJS',
+        name: "JavaScript",
         size: 1,
-        type: 'default',
+        type: "default",
     },
     {
-        name: 'HTML',
+        name: "HTML",
         size: 1,
-        type: 'default',
+        type: "default",
     },
     {
-        name: 'SASS',
+        name: "SASS",
         size: 1,
-        type: 'default',
+        type: "default",
     },
     {
-        name: 'Responsive Design',
+        name: "Responsive Design",
         size: 1,
-        type: 'default',
+        type: "default",
     },
-]
+];

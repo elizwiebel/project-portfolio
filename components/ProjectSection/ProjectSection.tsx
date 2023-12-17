@@ -1,11 +1,11 @@
-import styles from './ProjectSection.module.scss'
-import Project from '@components/Project/Project'
-import { project01ResponsiveHeaderData } from './project01-responsive-header-data'
-import { project02WebFormData } from './project02-web-form-data'
+import styles from "./ProjectSection.module.scss";
+import Project from "@components/Project/Project";
+import { project01ResponsiveHeaderData } from "./project01-responsive-header-data";
+import { project02WebFormData } from "./project02-web-form-data";
 
 export default function ProjectSection() {
     return (
-        <div className={styles['projects']}>
+        <div className={styles["projects"]}>
             <Project
                 heading="01 - Responsive Header and Navigation Menu"
                 description="Built from the ground up for a Shopify Plus ecommerce store. Nested sliding drawers on mobile and full width drop down mega menu on desktop. Features seamless sticky scrolling functionality. Dynamic links and text sourced from Shopify CMS. Created to match a Figma mock supplied by an internal UI team."
@@ -20,10 +20,7 @@ export default function ProjectSection() {
                 mobileImg="/assets/imgs/project02-capture-mobile-form.jpg"
                 desktopImg="/assets/imgs/project02-capture-desktop-form.jpg"
             />
-            <Project
-                heading="More Coming Soon"
-                description="Stay tuned for updates with more projects."
-            />
+            <Project heading="More Coming Soon" description="Stay tuned for updates with more projects." />
         </div>
-    )
+    );
 }

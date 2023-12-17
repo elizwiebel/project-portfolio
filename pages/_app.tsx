@@ -1,4 +1,4 @@
-import '@styles/main.scss'
+import "@styles/main.scss";
 // import { useReportWebVitals } from 'next/web-vitals'
 
 function Application({ Component, pageProps }) {
@@ -6,7 +6,7 @@ function Application({ Component, pageProps }) {
     //   console.log(metric)
     // })
 
-    return <Component {...pageProps} />
+    return <Component {...pageProps} />;
 }
 
-export default Application
+export default Application;
