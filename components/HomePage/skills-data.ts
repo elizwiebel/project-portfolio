@@ -215,7 +215,7 @@ export const skillsData = [
         type: "ecomm",
     },
     {
-        name: "Netsuite SuiteCommerce Advanced",
+        name: "NetSuite SuiteCommerce Advanced",
         size: 1,
         type: "ecomm",
     },
