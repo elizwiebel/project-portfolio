@@ -1,4 +1,5 @@
 import TagGrid from "@components/TagGrid/TagGrid";
+import IconLogoGrid from "@components//IconLogoGrid/IconLogoGrid";
 import styles from "./HomePage.module.scss";
 import Projects from "@components/ProjectSection/ProjectSection";
 import { skillsData } from "@components/HomePage/skills-data";
@@ -25,6 +26,7 @@ export default function HomePage() {
             </section>
             <section className={styles["section"]}>
                 <h2 className={styles["section-heading"]}>Skills</h2>
+                <IconLogoGrid />
                 <TagGrid data={skillsData} />
             </section>
             <section className={styles["section"]}>

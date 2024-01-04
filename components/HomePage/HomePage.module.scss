@@ -18,14 +18,14 @@
 .home-headshot-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 
     img {
         border-radius: $border-radius-primary;
         border: $border-primary-thick;
         box-shadow: $light-shadow;
         display: block;
-        width: 75%;
+        width: 100%;
         height: auto;
     }
 
@@ -33,6 +33,10 @@
         max-width: 500px;
         margin-bottom: 0;
         order: 2;
+
+        img {
+            width: 75%;
+        }
     }
 }
 
