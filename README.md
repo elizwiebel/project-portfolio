@@ -1,6 +1,6 @@
 # Project Portfolio
 
-This project is designed to be a private web development showcase. It is currently still in the early stages, but will evolve over time as more content is added.
+This project is designed to be a personal web development showcase. It is intended to represent my skills as well as display completed projects. It is currently still in the early stages, but will evolve over time as more content is added.
 
 ## Installation
 
