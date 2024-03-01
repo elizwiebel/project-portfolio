@@ -2,6 +2,7 @@ import TagGrid from "@components/TagGrid/TagGrid";
 import IconLogoGrid from "@components//IconLogoGrid/IconLogoGrid";
 import styles from "./HomePage.module.scss";
 import Projects from "@components/ProjectSection/ProjectSection";
+import AboutDescription from "@components/AboutDescription/AboutDescription";
 import { skillsData } from "@components/HomePage/skills-data";
 
 export default function HomePage() {
@@ -23,6 +24,10 @@ export default function HomePage() {
                         <h1 className={styles["home-title"]}>Software Engineer</h1>
                     </div>
                 </div>
+            </section>
+            <section className={styles["section"]}>
+                <h2 className={styles["section-heading"]}>About Me</h2>
+                <AboutDescription />
             </section>
             <section className={styles["section"]}>
                 <h2 className={styles["section-heading"]}>Skills</h2>
