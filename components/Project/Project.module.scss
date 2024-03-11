@@ -62,7 +62,7 @@
 
 .project-scroll-container {
     position: relative;
-    min-width: 750px;
+    min-width: 900px;
 
     @media screen and (min-width: $breakpoint-medium) {
         min-width: unset;
