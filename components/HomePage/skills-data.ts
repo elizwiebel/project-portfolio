@@ -9,11 +9,11 @@ export const skillsData = [
         size: 3,
         type: "web",
     },
-    {
-        name: "Python",
-        size: 1,
-        type: "web",
-    },
+    // {
+    //     name: "Python",
+    //     size: 1,
+    //     type: "web",
+    // },
     {
         name: "React.js",
         size: 3,

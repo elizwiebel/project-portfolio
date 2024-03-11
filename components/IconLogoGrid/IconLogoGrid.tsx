@@ -14,9 +14,9 @@ export default function IconLogoGrid() {
             <a href="https://www.typescriptlang.org/docs/" target="_blank" className={styles["logo-grid-item"]}>
                 <img src="/assets/svgs/LogoTypeScript.svg" title="TypeScript" />
             </a>
-            <a href="https://docs.python.org/3/" target="_blank" className={styles["logo-grid-item"]}>
+            {/* <a href="https://docs.python.org/3/" target="_blank" className={styles["logo-grid-item"]}>
                 <img src="/assets/svgs/LogoPython.svg" title="Python" />
-            </a>
+            </a> */}
             <a href="https://react.dev/" target="_blank" className={styles["logo-grid-item"]}>
                 <img src="/assets/svgs/LogoReact.svg" title="React.js" />
             </a>
