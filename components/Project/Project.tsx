@@ -2,6 +2,7 @@ import styles from "./Project.module.scss";
 import TagGrid from "@components/TagGrid/TagGrid";
 
 type ProjectProps = {
+    children?: any;
     heading: string;
     description: string;
     mobileImg?: string;
@@ -13,7 +14,7 @@ type ProjectProps = {
     }>;
 };
 
-export default function Project({ heading, description, mobileImg, desktopImg, tagData }: ProjectProps) {
+export default function Project({ children, heading, description, mobileImg, desktopImg, tagData }: ProjectProps) {
     return (
         <div className={styles["project"]}>
             <div className={styles["project-about-container"]}>
@@ -59,6 +60,7 @@ export default function Project({ heading, description, mobileImg, desktopImg, t
                     </div>
                 </div>
             )}
+            {children}
         </div>
     );
 }

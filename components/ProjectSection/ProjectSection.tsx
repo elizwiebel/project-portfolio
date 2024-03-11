@@ -2,6 +2,7 @@ import styles from "./ProjectSection.module.scss";
 import Project from "@components/Project/Project";
 import { project01ResponsiveHeaderData } from "./project01-responsive-header-data";
 import { project02WebFormData } from "./project02-web-form-data";
+import { project03MiniCartDrawer } from "./project03-mini-cart-drawer";
 
 export default function ProjectSection() {
     return (
@@ -20,6 +21,19 @@ export default function ProjectSection() {
                 mobileImg="/assets/imgs/project02-capture-mobile-form.jpg"
                 desktopImg="/assets/imgs/project02-capture-desktop-form.jpg"
             />
+            <Project
+                heading="03 - Mini Cart Drawer Dynamic Product Recommendations"
+                description='Dynamic "Frequently Bought Together" section in mini cart drawer for product upsell opportunities. Data sourced from CMS on per product basis. Add button removes from the list and shifts up to the cart section.'
+                tagData={project03MiniCartDrawer}
+            >
+                <img
+                    className={styles["project-single-capture"]}
+                    src="/assets/imgs/project03-capture-mini-cart-drawer.jpg"
+                    alt="Desktop website screen capture"
+                    width="843"
+                    height="2017"
+                ></img>
+            </Project>
             <Project heading="More Coming Soon" description="Stay tuned for updates with more projects." />
         </div>
     );
