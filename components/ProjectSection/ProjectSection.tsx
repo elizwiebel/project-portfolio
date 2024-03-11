@@ -23,7 +23,7 @@ export default function ProjectSection() {
             />
             <Project
                 heading="03 - Mini Cart Drawer Dynamic Product Recommendations"
-                description='Dynamic "Frequently Bought Together" section in mini cart drawer for product upsell opportunities. Data sourced from CMS on per product basis. Add button removes from the list and shifts up to the cart section.'
+                description='Dynamic "Frequently Bought Together" section in mini cart drawer for product upsell opportunities. Data sourced from CMS on per product basis. Add button removes product from the list and shifts up to the cart section.'
                 tagData={project03MiniCartDrawer}
             >
                 <img
