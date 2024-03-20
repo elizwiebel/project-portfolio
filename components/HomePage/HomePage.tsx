@@ -1,8 +1,9 @@
 import TagGrid from "@components/TagGrid/TagGrid";
 import IconLogoGrid from "@components//IconLogoGrid/IconLogoGrid";
 import styles from "./HomePage.module.scss";
-import Projects from "@components/ProjectSection/ProjectSection";
+import ProjectSection from "@components/ProjectSection/ProjectSection";
 import AboutDescription from "@components/AboutDescription/AboutDescription";
+import Certifications from "@components/Certifications/Certifications";
 import { skillsData } from "@components/HomePage/skills-data";
 
 export default function HomePage() {
@@ -36,7 +37,11 @@ export default function HomePage() {
             </section>
             <section className={styles["section"]}>
                 <h2 className={styles["section-heading"]}>Projects</h2>
-                <Projects />
+                <ProjectSection />
+            </section>
+            <section className={styles["section"]}>
+                <h2 className={styles["section-heading"]}>Certifications</h2>
+                <Certifications />
             </section>
         </>
     );

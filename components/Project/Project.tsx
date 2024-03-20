@@ -15,9 +15,15 @@ type ProjectProps = {
 };
 
 export default function Project({ children, heading, description, mobileImg, desktopImg, tagData }: ProjectProps) {
+    const hasNoContent = tagData || mobileImg || desktopImg || children ? false : true;
+
     return (
         <div className={styles["project"]}>
-            <div className={styles["project-about-container"]}>
+            <div
+                className={`
+                    ${styles["project-about-container"]} ${hasNoContent ? styles["--no-content"] : ""}
+                `}
+            >
                 <h3>{heading}</h3>
                 <p>{description}</p>
                 {tagData && <TagGrid data={tagData} />}

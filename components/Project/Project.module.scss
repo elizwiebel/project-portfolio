@@ -3,10 +3,18 @@
 
 .project {
     margin-bottom: 4rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .project-about-container {
     margin-bottom: 2rem;
+}
+
+.--no-content {
+    margin-bottom: 0;
 }
 
 .project-img-container {

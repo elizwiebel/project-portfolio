@@ -38,6 +38,13 @@
     font-family: $font-primary;
 }
 
+@mixin h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: none;
+    font-family: $font-primary;
+}
+
 @mixin txt-regular {
     font-family: $font-secondary;
     font-size: 1.125rem;
