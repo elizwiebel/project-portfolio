@@ -7,6 +7,8 @@ type ProjectProps = {
     description: string;
     mobileImg?: string;
     desktopImg?: string;
+    mobileImg2?: string;
+    desktopImg2?: string;
     tagData?: Array<{
         name: string;
         size: number;
@@ -14,7 +16,16 @@ type ProjectProps = {
     }>;
 };
 
-export default function Project({ children, heading, description, mobileImg, desktopImg, tagData }: ProjectProps) {
+export default function Project({
+    children,
+    heading,
+    description,
+    mobileImg,
+    desktopImg,
+    mobileImg2,
+    desktopImg2,
+    tagData,
+}: ProjectProps) {
     const hasNoContent = tagData || mobileImg || desktopImg || children ? false : true;
 
     return (
@@ -58,6 +69,44 @@ export default function Project({ children, heading, description, mobileImg, des
                             <img
                                 className={styles["project-desktop-capture"]}
                                 src={desktopImg}
+                                alt="Desktop website screen capture"
+                                width="2700"
+                                height="1540"
+                            ></img>
+                        </div>
+                    </div>
+                </div>
+            )}
+            {mobileImg2 && desktopImg2 && (
+                <div className={`${styles["project-img-container"]} ${styles["project-img-container2"]}`}>
+                    <div className={styles["project-mobile"]}>
+                        <img
+                            className={styles["project-mobile-background"]}
+                            src="/assets/imgs/mock-background-mobile.png"
+                            alt="Mock up of a mobile phone for use as a background"
+                            width="683"
+                            height="1377"
+                        ></img>
+                        <img
+                            className={styles["project-mobile-capture"]}
+                            src={mobileImg2}
+                            alt="Mobile website screen capture"
+                            width="1170"
+                            height="1965"
+                        ></img>
+                    </div>
+                    <div className={styles["project-desktop"]}>
+                        <div className={styles["project-scroll-container"]}>
+                            <img
+                                className={styles["project-desktop-background"]}
+                                src="/assets/imgs/mock-background-desktop.png"
+                                alt="Mock up of a laptop for use as a background"
+                                width="2451"
+                                height="1426"
+                            ></img>
+                            <img
+                                className={styles["project-desktop-capture"]}
+                                src={desktopImg2}
                                 alt="Desktop website screen capture"
                                 width="2700"
                                 height="1540"

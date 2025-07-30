@@ -3,6 +3,7 @@ import Project from "@components/Project/Project";
 import { project01ResponsiveHeaderData } from "./project01-responsive-header-data";
 import { project02WebFormData } from "./project02-web-form-data";
 import { project03MiniCartDrawer } from "./project03-mini-cart-drawer";
+import { project04CareerSelector } from "./project04-career-selector";
 
 export default function ProjectSection() {
     return (
@@ -34,6 +35,15 @@ export default function ProjectSection() {
                     height="2017"
                 ></img>
             </Project>
+            <Project
+                heading="04 - Career Selector Form and Results Page"
+                description="Form to determine user aviation career path options based on user experience and details. Results page features recommended information cards. Persistant state in local storage to save responses and animations built with Motion."
+                tagData={project04CareerSelector}
+                mobileImg="/assets/imgs/project04-capture-mobile-career-selector.png"
+                desktopImg="/assets/imgs/project04-capture-desktop-career-selector.png"
+                mobileImg2="/assets/imgs/project04-capture-mobile-career-selector2.png"
+                desktopImg2="/assets/imgs/project04-capture-desktop-career-selector2.png"
+            />
             <Project heading="More Coming Soon" description="Stay tuned for updates with more projects." />
         </div>
     );
