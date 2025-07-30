@@ -17,3 +17,9 @@ Start local server:
 ```sh
 npm run dev
 ```
+
+## Captures
+
+Desktop - Set dev tools viewport 1350 x 770 and capture area screenshots. Aspect ratio is 135 : 77.
+
+Mobile - Set dev tools viewport 390 x 655 and capture area screenshots. Aspect ratio is 78 : 131.
