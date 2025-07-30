@@ -14,6 +14,11 @@ export const skillsData = [
     //     size: 1,
     //     type: "web",
     // },
+        {
+        name: "Next.js",
+        size: 3,
+        type: "web",
+    },
     {
         name: "React.js",
         size: 3,
@@ -22,11 +27,6 @@ export const skillsData = [
     {
         name: "Node.js",
         size: 1,
-        type: "web",
-    },
-    {
-        name: "Next.js",
-        size: 2,
         type: "web",
     },
     {
