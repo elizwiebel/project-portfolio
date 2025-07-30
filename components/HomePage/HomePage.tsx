@@ -21,7 +21,7 @@ export default function HomePage() {
                 <div className={styles["home-txt-container"]}>
                     <div>
                         <p className={styles["home-txt"]}>Hi, my name is</p>
-                        <h2 className={styles["home-name"]}>Elijah Zwiebel</h2>
+                        <h2 className={styles["home-name"]}>Eli Zwiebel</h2>
                         <h1 className={styles["home-title"]}>Software Engineer</h1>
                     </div>
                 </div>
