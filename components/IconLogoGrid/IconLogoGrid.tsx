@@ -17,6 +17,9 @@ export default function IconLogoGrid() {
             {/* <a href="https://docs.python.org/3/" target="_blank" className={styles["logo-grid-item"]}>
                 <img src="/assets/svgs/LogoPython.svg" title="Python" />
             </a> */}
+            <a href="https://nextjs.org/" target="_blank" className={styles["logo-grid-item"]}>
+                <img src="/assets/svgs/LogoNext.svg" title="Next.js" />
+            </a>
             <a href="https://react.dev/" target="_blank" className={styles["logo-grid-item"]}>
                 <img src="/assets/svgs/LogoReact.svg" title="React.js" />
             </a>
