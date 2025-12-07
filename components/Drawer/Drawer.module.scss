@@ -1,5 +1,5 @@
-@import "@styles/variables";
-@import "@styles/mixins";
+@use "@styles/variables" as *;
+@use "@styles/mixins" as *;
 
 .drawer-container {
     width: 100%;

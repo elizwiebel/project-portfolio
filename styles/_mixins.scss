@@ -1,4 +1,4 @@
-@import "./variables";
+@use "styles/variables";
 
 /* Spacing */
 @mixin global-margin-x-sm {
@@ -21,55 +21,55 @@
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: $font-primary;
+    font-family: variables.$font-primary;
 }
 
 @mixin h2 {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: $font-primary;
+    font-family: variables.$font-primary;
 }
 
 @mixin h3 {
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: $font-primary;
+    font-family: variables.$font-primary;
 }
 
 @mixin h4 {
     font-size: 1rem;
     font-weight: 700;
     text-transform: none;
-    font-family: $font-primary;
+    font-family: variables.$font-primary;
 }
 
 @mixin txt-regular {
-    font-family: $font-secondary;
+    font-family: variables.$font-secondary;
     font-size: 1.125rem;
 }
 
 @mixin txt-x-small {
-    font-family: $font-secondary;
+    font-family: variables.$font-secondary;
     font-size: 0.5rem;
 }
 
 @mixin txt-small {
-    font-family: $font-secondary;
+    font-family: variables.$font-secondary;
     font-size: 0.75rem;
 }
 
 @mixin txt-medium {
-    font-family: $font-secondary;
+    font-family: variables.$font-secondary;
     font-size: 1.25rem;
 }
 
 @mixin link-medium {
     text-transform: uppercase;
-    font-family: $font-secondary;
+    font-family: variables.$font-secondary;
     font-size: 1rem;
     text-decoration: none;
-    color: $black;
+    color: variables.$black;
     letter-spacing: 2px;
 }

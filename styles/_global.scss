@@ -1,11 +1,13 @@
+@use "styles/variables";
+
 * {
     box-sizing: border-box;
 }
 
 html,
 body {
-    font-family: $font-secondary;
-    background-color: $background-secondary;
+    font-family: variables.$font-secondary;
+    background-color: variables.$background-secondary;
 }
 
 hr {
